@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">BMI等計算機</string>
+    <string name="tv_yourDegreeOfOdesite">あなたの肥満度は</string>
+    <string name="tv_DegreeOfOdesiteResult"></string>
+    <string name="tv_yourAppropriateWeight">あなたの適正体重は</string>
+    <string name="tv_AppropriateWeightResult"></string>
+    <string name="tv_resultUnit">kg</string>
+    <string name="tv_DODmethod"></string>
+
+    <string-array name="methodTable">
+        <item>BMI(成人)</item>
+        <item>Rothrer(児童)</item>
+        <item>Kaup(乳幼児)</item>
+    </string-array>
+    
+    <string-array name="BMITable">
+        <item>低体重(痩せ)</item>
+        <item>普通体重</item>
+        <item>肥満(1度)</item>
+        <item>肥満(2度)</item>
+        <item>肥満(3度)</item>
+        <item>肥満(4度)</item>
+    </string-array>
+    <string-array name="RohrerTable">
+        <item>やせすぎ</item>
+        <item>やせぎみ</item>
+        <item>ふつう</item>
+        <item>ふとりぎみ</item>
+        <item>ふとりすぎ</item>
+    </string-array>
+    <string-array name="KaupTable">
+        <item>やせぎみ</item>
+        <item>ふつう</item>
+        <item>ふとりぎみ</item>
+    </string-array>
+
+    <string name="tv_ageText">年齢</string>
+    <string name="tv_ageUnit">歳</string>
+    <string name="tv_heightText">身長</string>
+    <string name="tv_heightUnit">cm</string>
+    <string name="tv_weightText">体重</string>
+    <string name="tv_weightUnit">kg</string>
+    
+    <string name="button_calculate">計算</string>
+    <string name="button_clear">クリア</string>
+
+    <string name="dialog_title">警告</string>
+    <string name="dialog_msg">適切な肥満度を求めるために、6歳未満の場合はカウプ指数が、6歳から15歳まではローレル指数で計算されます。</string>
+    <string name="dialog_btn_ok">確認</string>
+</resources>
